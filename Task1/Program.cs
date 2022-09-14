@@ -11,6 +11,7 @@ int b = int.Parse(Console.ReadLine());
 int product = 1;
 for(int i = 1; i <= b; i++)
 {
-    product = product * a;
+    product *= a;
+    // product = product * a;
 }
 Console.Write(product);
